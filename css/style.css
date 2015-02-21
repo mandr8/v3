@@ -1,0 +1,165 @@
+body {
+	margin:0px;
+    padding:0px;
+    }
+
+.top {
+    width:100%;
+    }
+
+.top-content {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+#top-logo {
+    background-color: #333333;
+    width:50px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+    }
+
+.top-quote {
+    color:#333333;
+    font-size:72px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom:100px;
+    }
+
+.top-title {
+    color:#333333;
+    font-size:24px;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom:50px;
+    }
+
+.top-intro {
+    color:#333333;
+    font-size:24px;
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.4;
+    }
+
+.unit {
+    width:100%;
+    }
+
+.unit-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+.unit-quote {
+    color:#333;
+    font-size:36px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    }
+
+.unit-title {
+    color:#333333;
+    font-size:24px;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom:50px;
+    }
+
+.unit-image {
+    width: 100%;
+    }
+
+
+#p1 {
+    background-color: #0fa0d6;
+    }
+
+#p2 {
+    background-color: #fed223;
+    }
+
+#footer {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width:50%;
+    left: 0;
+    right:0;
+    margin: auto;
+    }
+
+.footer-logo {
+    width: 150px;
+    height: 25px;
+    left: 0;
+    right:0;
+    margin: auto;
+    padding-bottom: 25px;
+    }
+
+.footer-logo img {
+    width: 25px;
+    }
+
+#footer-logo-left {
+    width: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display:inline-block;
+    float:left;
+    }
+
+#footer-logo-right {
+    width: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display:inline-block;
+    float:right;
+    }
+
+.footer-text {
+    color:#333333;
+    font-size:14px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+    left: 0;
+    right:0;
+    margin: auto;
+    }
+
+/*
+------------------------------------------------------------------------
+SMARTPHONE
+------------------------------------------------------------------------
+*/
+
+@media (max-width: 400px) {
+    
+
+
+/*
+------------------------------------------------------------------------
+TABLET
+------------------------------------------------------------------------
+*/
+
+@media (min-width: 401px) and (max-width: 1000px) {
+
+    
+    
+/*
+------------------------------------------------------------------------
+DESKTOP
+------------------------------------------------------------------------
+*/
+
+@media (min-width: 1001px) {
