@@ -2,6 +2,7 @@ body {
     margin:0px;
     padding:0px;
     display: block;
+    font-family: 'Assistant', sans-serif;
     }
 
 .unit {
@@ -12,23 +13,24 @@ body {
     padding-bottom: 20px;
     color:#c8553d;
     font-size:48px;
-    font-family:'Arial', sans-serif;
-    font-weight: bold;
+    font-family:'Assistant', sans-serif;
+    font-weight: 700;
+    line-height: 1;
     text-align: left;
     text-decoration: none;
     }
-    
+
 .text-2 {
     color:#c8553d;
     font-size:36px;
-    font-family:'Arial', sans-serif;
-    font-weight: bold;
+    font-family:'Assistant', sans-serif;
+    font-weight: 700;
     }
 
 .text-3 {
     color:#403D39;
     font-size:24px;
-    font-family:'Arial', sans-serif;
+    font-family:'Assistant', sans-serif;
     font-weight: normal;
     line-height: 1.4;
     }
@@ -36,7 +38,7 @@ body {
 .text-4 {
     color:#403D39;
     font-size:18px;
-    font-family:'Arial', sans-serif;
+    font-family:'Assistant', sans-serif;
     font-weight: normal;
     line-height: 1.7;
     }
@@ -44,7 +46,7 @@ body {
 .text-4-link {
     color:#c8553d;
     font-size:18px;
-    font-family:'Arial', sans-serif;
+    font-family:'Assistant', sans-serif;
     font-weight: normal;
     line-height: 1.7;
     text-decoration: none;
@@ -53,7 +55,7 @@ body {
 .text-5 {
     color:#403D39;
     font-size:14px;
-    font-family:'Arial', sans-serif;
+    font-family:'Assistant', sans-serif;
     font-weight: normal;
     text-align: left;
     }
@@ -69,7 +71,7 @@ body {
 .text-4-link-selected {
     color:#738290;
     font-size:18px;
-    font-family:'Arial', sans-serif;
+    font-family:'Assistant', sans-serif;
     font-weight: normal;
     line-height: 1.7;
     text-decoration: none;
@@ -87,7 +89,7 @@ SMARTPHONE
 
 @media (max-width: 400px) {
 
-.content {
+/*.content {
     width:80%;
     margin-left:auto;
     margin-right:auto;
@@ -98,7 +100,7 @@ SMARTPHONE
     border-style: solid;
     border-width: 15px;
     border-color: #eaf2e3;
-    }
+    }*/
 
 .menu {
     width:80%;
@@ -107,7 +109,7 @@ SMARTPHONE
     padding-left: 50px;
     padding-right: 50px;
     }
-    
+
 .content-edges {
     margin-left:auto;
     margin-right:auto;
@@ -181,29 +183,17 @@ SMARTPHONE
     }
 
 .text-1 {
-    color:#c8553d;
     font-size:48px;
-    font-family:'Arial', sans-serif;
-    font-weight: bold;
-    text-align: left;
-    text-decoration: none;
     padding-bottom: 15px;
-    }
+      }
 
 .text-2 {
-    color:#c8553d;
     font-size:24px;
-    font-family:'Arial', sans-serif;
-    font-weight: bold;
     padding-bottom: 5px;
     }
 
 .text-3 {
-    color:#403D39;
-    font-size:21px;
-    font-family:'Arial', sans-serif;
-    font-weight: normal;
-    line-height: 1.4;
+        font-size:21px;
     }
 
 .bottom-links {
@@ -216,7 +206,7 @@ SMARTPHONE
     }
 
 }
-    
+
 
 
 /*
@@ -331,11 +321,11 @@ TABLET
     padding-right: 20px;
     display:inline-block;
     }
-    
+
 }
 
-    
-    
+
+
 /*
 ------------------------------------------------------------------------
 DESKTOP
@@ -343,7 +333,7 @@ DESKTOP
 */
 
 @media (min-width: 1001px) {
-    
+
 .content {
     width:40%;
     margin-left:auto;
